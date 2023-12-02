@@ -1,9 +1,12 @@
 /**
- * @author Luana Martini
- * 
- * Uma classe que mostra os possíveis resultados de uma interação de um cliente com sua conta bancária.
+* @author Luana Martini
+* 
+* Uma classe que mostra os possíveis resultados de uma interação de um cliente com sua conta bancária.
 */
 
+/**
+* Primeiramente foi necessário importar algumas bibliotecas especificas do Java Cucumber, para que possibilitar o funcionamento correto do programa.
+*/
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
