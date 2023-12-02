@@ -8,7 +8,7 @@ public class Conta {
 		System.out.println("Seu saldo atual é de R$" + int1 + ".");
 	}
 
-	@When("for solicitado um saque de {int} reais")
+	@When("foi solicitado um saque de {int} reais")
 	public void for_solicitado_um_saque_de_reais(Integer int1) {
 	    System.out.println("O saque solicitado é de R$" + int1 + ".");
 	}
