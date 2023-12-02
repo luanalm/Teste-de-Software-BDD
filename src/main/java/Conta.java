@@ -20,7 +20,7 @@ public class Conta {
 
 	@Then("check more outcomes")
 	public void check_more_outcomes() {
-	    throw new io.cucumber.java.PendingException();
+		
 	}
 
 	@Given("Um cliente comum com saldo atual de {int} reais")
