@@ -8,7 +8,7 @@ para que eu não tenha que esperar em uma fila do banco.
   @tag1
   Scenario: Cliente especial com saldo negativo
     Given Um cliente especial com saldo atual de -200 reais
-    When for solicitado um saque de 100 reais
+    When foi solicitado um saque de 100 reais
     Then deve efetuar o saque e atualizar o saldo da conta para -300 reais
     And check more outcomes
     
