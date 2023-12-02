@@ -1,3 +1,9 @@
+/**
+ * @author Luana Martini
+ * 
+ * Uma classe que mostra os possíveis resultados de uma interação de um cliente com sua conta bancária.
+*/
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
